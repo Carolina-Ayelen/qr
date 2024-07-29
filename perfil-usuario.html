@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href='css/main.css'>
+    <title>QR - Qué Rápido</title>
+    <!--iconos-->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/dc5245dcc0.js" crossorigin="anonymous"></script>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--script-->
+    <script src="js/smooth-scroll.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light mb-4 fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-qr-color.png" alt="Logo Qr Qué rápido" class="img-fluid logo-qr-color2">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+                        <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
+                    </button>
+                <div class="offcanvas offcanvas-start bg-light" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+                    <div class="offcanvas-header">
+                        <img src="img/logo-qr-color.png" id="offcanvasLabel" alt="Logo Qr Qué rápido" class="img-fluid logo-qr-color2">
+                        <button type="button" class="btn-close btn-close-black text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-light">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ingresar a Qué Rápido</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!---->
+        <section class="pantallas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Perfil de usuario</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container perfil-usuario">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 cuadro-pedido text-center">
+                        <img src="img/perfil.png" alt="imagén perfil" class="img-fluid imagen-perfil">
+                        <div class="espacio2"></div>
+                        <h3>Hola!!!</h3>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-sm-12 col-md-7 cuadro-pedido">
+                        <h3>Modificar datos de perfil</h3>
+                        <form action="" class="row">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control" id="formGroupExampleInput3" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="formGroupExampleInput4" placeholder="Contraseña">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="formGroupExampleInput5" placeholder="Repetir contraseña">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">Foto de perfil</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                </div>
+                            </div>
+                            <div class="espacio2"></div>
+                            <div class="mb-5">
+                                <button type="button" class="btn btn-success">Modificar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container text-center">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="cuadro-creditos">
+                            <h4>Créditos disponibles</h4>
+                            <h4><span>U$s25</span></h4>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cuadro-cupones">
+                            <h4>Cupones disponibles</h4>
+                            <h4><span>U$s25</span></h4>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="cuadro-volver">
+                            <a href="">
+                                <h4>Volver al menú principal</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 d-flex justify-content-start">
+                    <img src="img/logo-qr-blanco.png" alt="Logo QR" class="img-fluid logo-qr-blanco">
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <p>Copyright © QR.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+</body>
+
+</html>
