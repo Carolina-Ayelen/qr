@@ -56,10 +56,13 @@ a:hover {
     background-color: #ffffff;
     border: none;
     color: #292929;
+    font-weight: 600;
 }
 
-.btn-info:hover {
+.btn-info:hover,
+:not(.btn-check) + .btn:active {
     background-color: #2b2bbf;
+    color:#ffffff;
 }
 
 .btn-primary {
@@ -122,6 +125,7 @@ a:hover {
 
 .pantallas {
     padding-top: 8rem;
+    height: 100vh;
 }
 
 
@@ -197,9 +201,15 @@ i {
     max-width: 180px;
 }
 
-.img-hero {
-    margin-top: 2rem;
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 624px;
+    margin-top: 5rem;
 }
+
 
 .info-contacto {
     background-color: #fafbfc;
@@ -416,6 +426,16 @@ footer p {
         padding: 1.5rem;
     }
     /*Menu*/
+    
+    .hero{
+        background-image: url("../img/hero-mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 800px;
+        margin-top: 5rem;
+    }
+
     .logo-restaurante {
         max-width: 100px;
     }
